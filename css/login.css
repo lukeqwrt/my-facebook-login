@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+
+
+
+.main {
+    height: 100vh;
+    background: rgb(248, 248, 248);
+}
+
+.main .left {
+    width: 350px;
+    height: 350px;
+
+    position: absolute;
+    top: 120px;
+    left: 180px;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.main .left .content{
+    grid-row: 1/2;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.main .left .content h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(16, 76, 241);
+    font-weight: 700;
+
+}
+
+.main .left .bla h4{
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.main .left .bla p{
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+
+
+
+.main .left .container{
+    height: 100%;
+    width: 100%;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px;
+
+}
+
+
+.main .left .container .child1 img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.main .left .container .child1 {
+height: 100%;
+width: 100%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); 
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main .left .container .child1:hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+
+.main .left .container .child1 .image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.main .left .container .child1 .myname {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background:rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .left .container .child1 .myname p{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.main .left .container .child2{
+    height: 100%;
+    width: 100%;
+    background: rgb(235, 229, 229);
+    position: relative;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 20px;
+}
+
+.main .left .container .child2 .add{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main .left .container .child2 .add{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(241, 238, 238);
+}
+
+.main .left .container .child2 .add p{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+
+.main .myform{
+    height: 340px;
+    width: 370px;
+    background:white;
+    position: absolute;
+    right: 180px;
+    top: 120px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 14px;
+}
+
+.main .myform form {
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    ;
+    
+}
+
+.main .myform form input{
+    width: 90%;
+    height: 47px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: sans-serif;
+    font-weight: bolder;
+  
+
+}
+.main .myform form .dikit{
+    height: 49%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.main .myform form input::placeholder{
+   padding-left: 10px;
+   font-weight: bold;
+}
+
+.main .myform form .login{
+    background: rgb(16, 76, 241);
+    color: white;
+    font-family: sans-serif;
+   
+    font-weight: bolder;
+}
+
+
+.main .myform form .create{
+    width: 47%;
+    color: white;
+    background: rgb(50, 126, 50);
+    cursor: pointer;
+}
+
+.main .myform form li{
+    list-style: none;
+}
+
+.main .myform form li a{
+    text-decoration: none;
+    color: rgb(16, 76, 241);
+}
+
+.main .myform form span{
+    height: 1px;
+    width: 90%;
+    background: rgb(168, 168, 168);
+}
